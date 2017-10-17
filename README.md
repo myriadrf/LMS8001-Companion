@@ -59,9 +59,23 @@ The directory structure is as follows:
 
 ## Associated projects
 
+### LMS8 Suite
+
+Utilities for use with hardware based upon LMS8001 RFICs from Lime Microsystems:
+
+* Source: https://github.com/myriadrf/LMS8Suite
+* Windows binary: http://downloads.myriadrf.org/builds/lms8suite/
+
 ### LMS8001 PLL-Sim
 
-An LMS8001 PLL simulator can be found in the [LMS8001-PLL-Sim repository](https://github.com/myriadrf/LMS8001-PLL-Sim).
+An LMS8001 PLL simulator:
+
+* Source: https://github.com/myriadrf/LMS8001-PLL-Sim
+* Windows installer: http://downloads.myriadrf.org/builds/LMS8001-PLL-Sim/
+
+### LMS8001 Documentation
+
+* https://github.com/myriadrf/LMS8001-docs
 
 ## Licensing
 
