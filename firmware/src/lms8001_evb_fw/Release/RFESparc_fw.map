@@ -1,0 +1,789 @@
+Archive member included because of file (symbol)
+
+c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-errno.o)
+                              ./system/src/newlib/_sbrk.o (symbol from plugin) (__errno)
+c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-impure.o)
+                              c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-errno.o) (_impure_ptr)
+c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memset.o)
+                              ./src/main.o (symbol from plugin) (memset)
+c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-strcmp.o)
+                              ./system/src/cortexm/exception_handlers.o (symbol from plugin) (strcmp)
+c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memcpy-stub.o)
+                              C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o (memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+adc_val             0x4               ./src/main.o (symbol from plugin)
+block               0x1               ./src/main.o (symbol from plugin)
+timer_delayCount    0x4               ./src/Timer.o (symbol from plugin)
+rx_buff             0x40              ./src/main.o (symbol from plugin)
+errno               0x4               ./system/src/newlib/_syscalls.o (symbol from plugin)
+MCU_retries         0x1               ./src/main.o (symbol from plugin)
+adc_vals            0x80              ./src/main.o (symbol from plugin)
+USB_V_old           0x1               ./src/main.o (symbol from plugin)
+MCU_mode            0x1               ./src/main.o (symbol from plugin)
+current_portion     0x1               ./src/main.o (symbol from plugin)
+usbd_cdc_OtherCfgDesc
+                    0x43              ./src/usbd_cdc_core.o (symbol from plugin)
+USB_Rx_Buffer       0x3f              ./src/usbd_cdc_core.o (symbol from plugin)
+count               0x1               ./src/main.o (symbol from plugin)
+USART_InitStructure
+                    0x10              ./src/usbd_cdc_vcp.o (symbol from plugin)
+tx_buff             0x40              ./src/main.o (symbol from plugin)
+cmd_errors          0x1               ./src/main.o (symbol from plugin)
+USB_V_new           0x1               ./src/main.o (symbol from plugin)
+Send_Buffer         0x40              ./src/main.o (symbol from plugin)
+USBD_StrDesc        0xff              ./src/usbd_req.o (symbol from plugin)
+temp_status         0x1               ./src/main.o (symbol from plugin)
+reg_idx             0x1               ./src/main.o (symbol from plugin)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./system/src/stm32f1-stdperiph/misc.o (symbol from plugin)
+ .text          0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .text          0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .data          0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text.VCP_DataTx
+                0x00000000       0x3c C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text.VCP_Ctrl.7980
+                0x00000000        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text.VCP_DeInit.7978
+                0x00000000        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text.VCP_Init.7974
+                0x00000000        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text.unlikely.RCC_APB2PeriphClockCmd.part.3.4623
+                0x00000000       0x10 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .data.ADCPrescTable.4779.4664
+                0x00000000        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .data.APBAHBPrescTable.4778.4666
+                0x00000000       0x10 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text          0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+ .data          0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+ .text          0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+ .data          0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+ .rodata.VCP_fops
+                0x00000000       0x14 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+ .text          0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+ .data          0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+ .rodata.USBD_DCD_INT_fops
+                0x00000000        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+ .text          0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans5.ltrans.o
+ .data          0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans5.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans5.ltrans.o
+ .after_vectors
+                0x00000000       0xa8 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans5.ltrans.o
+ .rodata.str1.4
+                0x00000000        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans5.ltrans.o
+ .debug_info    0x00000000      0x2b3 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans5.ltrans.o
+ .debug_abbrev  0x00000000      0x198 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans5.ltrans.o
+ .debug_loc     0x00000000      0x15e C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans5.ltrans.o
+ .debug_aranges
+                0x00000000       0x30 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans5.ltrans.o
+ .debug_ranges  0x00000000       0x70 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans5.ltrans.o
+ .debug_line    0x00000000      0x16d C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans5.ltrans.o
+ .debug_str     0x00000000      0x23c C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans5.ltrans.o
+ .comment       0x00000000       0x71 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans5.ltrans.o
+ .ARM.attributes
+                0x00000000       0x31 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans5.ltrans.o
+ .debug_frame   0x00000000       0x4c C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans5.ltrans.o
+ .text          0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 ./system/src/stm32f1-stdperiph/stm32f10x_adc.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/stm32f1-stdperiph/stm32f10x_exti.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/stm32f1-stdperiph/stm32f10x_i2c.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/stm32f1-stdperiph/stm32f10x_spi.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/newlib/_cxx.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/newlib/_exit.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/newlib/_sbrk.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/newlib/_startup.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/newlib/_syscalls.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/newlib/assert.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/diag/Trace.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/diag/trace_impl.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/cortexm/_initialize_hardware.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/cortexm/_reset_hardware.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/cortexm/exception_handlers.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/cmsis/system_stm32f10x.o (symbol from plugin)
+ .text          0x00000000        0x0 ./system/src/cmsis/vectors_stm32f10x.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/BlinkLed.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/Timer.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/_write.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/i2csw.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/main.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/stm32fxxx_it.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/usb_bsp.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/usb_core.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/usb_dcd.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/usb_dcd_int.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/usbd_cdc_core.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/usbd_cdc_vcp.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/usbd_core.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/usbd_desc.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/usbd_ioreq.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/usbd_req.o (symbol from plugin)
+ .text          0x00000000        0x0 ./src/usbd_usr.o (symbol from plugin)
+ .text          0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-errno.o)
+ .text.__errno  0x00000000        0xc c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-errno.o)
+ .debug_frame   0x00000000       0x20 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000       0x60 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-impure.o)
+ .rodata.str1.1
+                0x00000000        0x2 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x2d c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memset.o)
+ .text          0x00000000       0x14 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-strcmp.o)
+ .data          0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000000       0x1b c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-strcmp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x20000000         0x00010000         xrw
+CCMRAM           0x00000000         0x00000000         xrw
+FLASH            0x08000000         0x00020000         xr
+FLASHB1          0x00000000         0x00000000         xr
+EXTMEMB0         0x00000000         0x00000000         xr
+EXTMEMB1         0x00000000         0x00000000         xr
+EXTMEMB2         0x00000000         0x00000000         xr
+EXTMEMB3         0x00000000         0x00000000         xr
+MEMORY_ARRAY     0x00000000         0x00000000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./system/src/stm32f1-stdperiph/misc.o
+LOAD C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+LOAD C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+LOAD C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+LOAD C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+LOAD C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+LOAD C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans5.ltrans.o
+LOAD c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a
+LOAD c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a
+LOAD c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a
+LOAD c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a
+LOAD c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a
+LOAD ./system/src/stm32f1-stdperiph/stm32f10x_adc.o
+LOAD ./system/src/stm32f1-stdperiph/stm32f10x_exti.o
+LOAD ./system/src/stm32f1-stdperiph/stm32f10x_gpio.o
+LOAD ./system/src/stm32f1-stdperiph/stm32f10x_i2c.o
+LOAD ./system/src/stm32f1-stdperiph/stm32f10x_rcc.o
+LOAD ./system/src/stm32f1-stdperiph/stm32f10x_spi.o
+LOAD ./system/src/newlib/_cxx.o
+LOAD ./system/src/newlib/_exit.o
+LOAD ./system/src/newlib/_sbrk.o
+LOAD ./system/src/newlib/_startup.o
+LOAD ./system/src/newlib/_syscalls.o
+LOAD ./system/src/newlib/assert.o
+LOAD ./system/src/diag/Trace.o
+LOAD ./system/src/diag/trace_impl.o
+LOAD ./system/src/cortexm/_initialize_hardware.o
+LOAD ./system/src/cortexm/_reset_hardware.o
+LOAD ./system/src/cortexm/exception_handlers.o
+LOAD ./system/src/cmsis/system_stm32f10x.o
+LOAD ./system/src/cmsis/vectors_stm32f10x.o
+LOAD ./src/BlinkLed.o
+LOAD ./src/Timer.o
+LOAD ./src/_write.o
+LOAD ./src/i2csw.o
+LOAD ./src/main.o
+LOAD ./src/stm32fxxx_it.o
+LOAD ./src/usb_bsp.o
+LOAD ./src/usb_core.o
+LOAD ./src/usb_dcd.o
+LOAD ./src/usb_dcd_int.o
+LOAD ./src/usbd_cdc_core.o
+LOAD ./src/usbd_cdc_vcp.o
+LOAD ./src/usbd_core.o
+LOAD ./src/usbd_desc.o
+LOAD ./src/usbd_ioreq.o
+LOAD ./src/usbd_req.o
+LOAD ./src/usbd_usr.o
+LOAD c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libstdc++_s.a
+LOAD c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libm.a
+START GROUP
+LOAD c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a
+LOAD c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a
+LOAD c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a
+END GROUP
+START GROUP
+LOAD c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7-m\libgcc.a
+LOAD c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libc_s.a
+END GROUP
+                0x20010000                __stack = (ORIGIN (RAM) + 0x10000)
+                0x20010000                _estack = __stack
+                0x00000400                __Main_Stack_Size = 0x400
+                0x00000400                PROVIDE (_Main_Stack_Size, __Main_Stack_Size)
+                0x2000fc00                __Main_Stack_Limit = (__stack - __Main_Stack_Size)
+                0x2000fc00                PROVIDE (_Main_Stack_Limit, __Main_Stack_Limit)
+                0x00000100                _Minimum_Stack_Size = 0x100
+                0x20001118                PROVIDE (_Heap_Begin, _end_noinit)
+                0x2000fc00                PROVIDE (_Heap_Limit, (__stack - __Main_Stack_Size))
+
+.isr_vector     0x08000000      0xfec
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x1e4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08000000                __isr_vectors
+ *(.cfmconfig)
+ *(.after_vectors .after_vectors.*)
+ .after_vectors
+                0x080001e4      0xdfc C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+                0x080001e4                _start
+ .after_vectors
+                0x08000fe0        0xc C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08000fec                . = ALIGN (0x4)
+
+.inits          0x08000fec        0x0
+                0x08000fec                . = ALIGN (0x4)
+ *(.init)
+ *(.fini)
+                0x08000fec                . = ALIGN (0x4)
+                0x08000fec                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array_sysinit .preinit_array_sysinit.*)
+ *(.preinit_array_platform .preinit_array_platform.*)
+ *(.preinit_array .preinit_array.*)
+                0x08000fec                PROVIDE (__preinit_array_end, .)
+                0x08000fec                . = ALIGN (0x4)
+                0x08000fec                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x08000fec                PROVIDE (__init_array_end, .)
+                0x08000fec                . = ALIGN (0x4)
+                0x08000fec                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x08000fec                PROVIDE (__fini_array_end, .)
+                0x08000fec                . = ALIGN (0x4)
+
+.flashtext      0x08000fec        0x0
+                0x08000fec                . = ALIGN (0x4)
+ *(.flashtext .flashtext.*)
+                0x08000fec                . = ALIGN (0x4)
+
+.text           0x08000fec     0x269c
+                0x08000fec                . = ALIGN (0x4)
+ *(.text .text.*)
+ .text.USB_OTG_EP0_OutStart
+                0x08000fec       0x44 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08000fec                USB_OTG_EP0_OutStart
+ .text.OTG_FS_IRQHandler.4205
+                0x08001030      0x644 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text.USBD_Reset.8229
+                0x08001674       0xa0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001674                USBD_Reset.8229
+ .text.USBD_USR_ConfigStrDescriptor
+                0x08001714       0x48 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001714                USBD_USR_ConfigStrDescriptor
+ .text.USBD_USR_ManufacturerStrDescriptor
+                0x0800175c       0x48 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x0800175c                USBD_USR_ManufacturerStrDescriptor
+ .text.USBD_USR_ProductStrDescriptor
+                0x080017a4       0x48 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x080017a4                USBD_USR_ProductStrDescriptor
+ .text.usbd_cdc_DeInit.7748
+                0x080017ec       0x60 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x080017ec                usbd_cdc_DeInit.7748
+ .text.SysTick_Handler.4388
+                0x0800184c      0x140 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text.USBD_USR_SerialStrDescriptor
+                0x0800198c      0x110 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x0800198c                USBD_USR_SerialStrDescriptor
+ .text.USBD_USR_InterfaceStrDescriptor
+                0x08001a9c       0x48 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001a9c                USBD_USR_InterfaceStrDescriptor
+ .text.USBD_USR_DeviceDisconnected
+                0x08001ae4        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001ae4                USBD_USR_DeviceDisconnected
+ .text.USBD_USR_DeviceConnected
+                0x08001ae8        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001ae8                USBD_USR_DeviceConnected
+ .text.USBD_USR_DeviceResumed
+                0x08001aec        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001aec                USBD_USR_DeviceResumed
+ .text.USBD_USR_DeviceSuspended
+                0x08001af0        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001af0                USBD_USR_DeviceSuspended
+ .text.USBD_USR_DeviceConfigured
+                0x08001af4        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001af4                USBD_USR_DeviceConfigured
+ .text.USBD_USR_DeviceReset
+                0x08001af8        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001af8                USBD_USR_DeviceReset
+ .text.USBD_USR_Init
+                0x08001afc        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001afc                USBD_USR_Init
+ .text.USBD_USR_LangIDStrDescriptor
+                0x08001b00        0xc C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001b00                USBD_USR_LangIDStrDescriptor
+ .text.USBD_USR_DeviceDescriptor
+                0x08001b0c        0xc C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001b0c                USBD_USR_DeviceDescriptor
+ .text.USBD_IsoOUTIncomplete.8226
+                0x08001b18       0x10 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001b18                USBD_IsoOUTIncomplete.8226
+ .text.USBD_IsoINIncomplete.8223
+                0x08001b28       0x10 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001b28                USBD_IsoINIncomplete.8223
+ .text.USBD_SOF.8220
+                0x08001b38       0x10 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001b38                USBD_SOF.8220
+ .text.USBD_Suspend.8217
+                0x08001b48       0x1c C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001b48                USBD_Suspend.8217
+ .text.USBD_Resume.8034
+                0x08001b64       0x18 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001b64                USBD_Resume.8034
+ .text.VCP_DataRx.7991
+                0x08001b7c       0x44 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001b7c                VCP_DataRx.7991
+ .text.USBD_cdc_GetCfgDesc.7723
+                0x08001bc0        0xc C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001bc0                USBD_cdc_GetCfgDesc.7723
+ .text.usbd_cdc_EP0_RxReady.7720
+                0x08001bcc       0x14 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001bcc                usbd_cdc_EP0_RxReady.7720
+ .text.PendSV_Handler.4526
+                0x08001be0        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text.DebugMon_Handler.4528
+                0x08001be4        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text.SVC_Handler.4530
+                0x08001be8        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text.UsageFault_Handler.4532
+                0x08001bec        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text.BusFault_Handler.4534
+                0x08001bf0        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text.MemManage_Handler.4536
+                0x08001bf4        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text.HardFault_Handler.4538
+                0x08001bf8        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text.NMI_Handler.4540
+                0x08001bfc        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text.USBD_CtlError
+                0x08001c00       0x78 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001c00                USBD_CtlError
+ .text.USB_OTG_CoreReset.isra.1.6338
+                0x08001c78       0x48 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001c78                USB_OTG_CoreReset.isra.1.6338
+ .text.GPIO_Init
+                0x08001cc0      0x3cc C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x08001cc0                GPIO_Init
+ .text.GPIO_Init.constprop.80
+                0x0800208c      0x11c C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x0800208c                GPIO_Init.constprop.80
+ .text.USB_OTG_EP0StartXfer
+                0x080021a8       0xfc C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x080021a8                USB_OTG_EP0StartXfer
+ .text.SystemInit
+                0x080022a4      0x124 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                0x080022a4                SystemInit
+ .text.OTG_FS_WKUP_IRQHandler.4416
+                0x080023c8       0x50 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .text.USBD_DataInStage.8238
+                0x08002418      0x194 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+                0x08002418                USBD_DataInStage.8238
+ .text.usbd_cdc_DataIn.7759
+                0x080025ac      0x148 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+                0x080025ac                usbd_cdc_DataIn.7759
+ .text.USBD_DataOutStage.8245
+                0x080026f4      0x10c C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+                0x080026f4                USBD_DataOutStage.8245
+ .text.USBD_CtlSendStatus
+                0x08002800       0xa8 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+                0x08002800                USBD_CtlSendStatus
+ .text.USBD_CtlSendData
+                0x080028a8       0xc4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+                0x080028a8                USBD_CtlSendData
+ .text.usbd_cdc_DataOut.7733
+                0x0800296c       0xb0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+                0x0800296c                usbd_cdc_DataOut.7733
+ .text.USB_OTG_EPStartXfer
+                0x08002a1c      0x13c C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+                0x08002a1c                USB_OTG_EPStartXfer
+ .text.usbd_cdc_SOF.7730
+                0x08002b58       0xb8 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+                0x08002b58                usbd_cdc_SOF.7730
+ .text.usbd_cdc_Init.7752
+                0x08002c10      0x124 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+                0x08002c10                usbd_cdc_Init.7752
+ .text.usbd_cdc_Setup.7737
+                0x08002d34      0x168 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+                0x08002d34                usbd_cdc_Setup.7737
+ .text.i2cPutbyte
+                0x08002e9c       0xc8 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+                0x08002e9c                i2cPutbyte
+ .text.USBD_SetupStage.8232.4015
+                0x08002f64      0x6e4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+ .text.memcpy   0x08003648       0x12 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memcpy-stub.o)
+                0x08003648                memcpy
+ .text.memset   0x0800365a       0x10 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memset.o)
+                0x0800365a                memset
+ *(.rodata .rodata.*)
+ *fill*         0x0800366a        0x2 
+ .rodata.str1.4
+                0x0800366c       0x1c C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ *(vtable)
+ *(.eh_frame*)
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x08003688        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08003688        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08003688        0x0
+ .iplt          0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-errno.o)
+
+.rel.dyn        0x08003688        0x0
+ .rel.iplt      0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-errno.o)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08003688                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x08003688                __exidx_end = .
+                0x08003688                . = ALIGN (0x4)
+                0x08003688                _etext = .
+                0x08003688                __etext = .
+                0x08003688                _sidata = _etext
+
+.data           0x20000000      0x104 load address 0x08003688
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+                0x20000000                __data_start__ = .
+ *(.data_begin .data_begin.*)
+ *(.data .data.*)
+ .data.USR_cb   0x20000000       0x1c C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .data.USR_desc
+                0x2000001c       0x1c C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .data.AHBPrescTable.4709
+                0x20000038       0x10 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .data.SystemCoreClock
+                0x20000048        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .data.USBD_CDC_cb.4670
+                0x2000004c       0x2c C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .data.USBD_LangIDDesc.4654
+                0x20000078        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .data.cdcCmd.7947
+                0x2000007c        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+                0x2000007c                cdcCmd.7947
+ .data.usbd_cdc_CfgDesc
+                0x20000080       0x44 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+                0x20000080                usbd_cdc_CfgDesc
+ .data.USBD_DeviceDesc
+                0x200000c4       0x14 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+                0x200000c4                USBD_DeviceDesc
+ .data.USBD_DCD_INT_cb
+                0x200000d8       0x2c C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+                0x200000d8                USBD_DCD_INT_cb
+ *(.data_end .data_end.*)
+                0x20000104                . = ALIGN (0x4)
+                0x20000104                _edata = .
+                0x20000104                __data_end__ = .
+
+.igot.plt       0x20000104        0x0 load address 0x0800378c
+ .igot.plt      0x00000000        0x0 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-errno.o)
+
+.bss            0x20000104     0x1014 load address 0x0800378c
+                0x20000104                . = ALIGN (0x4)
+                0x20000104                __bss_start__ = .
+                0x20000104                _sbss = .
+ *(.bss_begin .bss_begin.*)
+ *(.bss .bss.*)
+ .bss.tx_buff.4660
+                0x20000104       0x40 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .bss.USB_OTG_dev
+                0x20000144      0x5f4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+                0x20000144                USB_OTG_dev
+ .bss.LED_mode  0x20000738        0xc C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+                0x20000738                LED_mode
+ .bss.LED_timeout
+                0x20000744        0xc C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+                0x20000744                LED_timeout
+ .bss.APP_Rx_ptr_in
+                0x20000750        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+                0x20000750                APP_Rx_ptr_in
+ .bss.APP_Rx_Buffer
+                0x20000754      0x800 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+                0x20000754                APP_Rx_Buffer
+ .bss.cmd_errors.4657
+                0x20000f54        0x1 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ *fill*         0x20000f55        0x3 
+ .bss.Receive_length
+                0x20000f58        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+                0x20000f58                Receive_length
+ .bss.block.4658
+                0x20000f5c        0x1 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ *fill*         0x20000f5d        0x3 
+ .bss.Receive_Buffer
+                0x20000f60       0x40 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+                0x20000f60                Receive_Buffer
+ .bss.timer_delayCount.4652
+                0x20000fa0        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .bss.USBD_StrDesc.4623
+                0x20000fa4      0x100 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .bss.USB_Tx_State
+                0x200010a4        0x1 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+                0x200010a4                USB_Tx_State
+ *fill*         0x200010a5        0x3 
+ .bss.APP_Rx_ptr_out
+                0x200010a8        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+                0x200010a8                APP_Rx_ptr_out
+ .bss.APP_Rx_length
+                0x200010ac        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+                0x200010ac                APP_Rx_length
+ .bss.cdcLen.7956
+                0x200010b0        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+                0x200010b0                cdcLen.7956
+ .bss.CmdBuff   0x200010b4        0x8 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+                0x200010b4                CmdBuff
+ .bss.usbd_cdc_AltSet.7946.4365
+                0x200010bc        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+ .bss.FrameCount.7253.7963.4349
+                0x200010c0        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+ .bss.USB_Rx_Buffer.4368
+                0x200010c4       0x40 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+ .bss.SET_TEST_MODE
+                0x20001104        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+                0x20001104                SET_TEST_MODE
+ .bss.cfgidx.7260.8868.4350
+                0x20001108        0x1 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+ *fill*         0x20001109        0x3 
+ .bss.USBD_default_cfg.4372
+                0x2000110c        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+ .bss.USBD_ep_status
+                0x20001110        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+ .bss.USBD_cfg_status.4371
+                0x20001114        0x4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+ *(COMMON)
+ *(.bss_end .bss_end.*)
+                0x20001118                . = ALIGN (0x4)
+                0x20001118                __bss_end__ = .
+                0x20001118                _ebss = .
+
+.noinit         0x20001118        0x0
+                0x20001118                . = ALIGN (0x4)
+                0x20001118                _noinit = .
+ *(.noinit .noinit.*)
+                0x20001118                . = ALIGN (0x4)
+                0x20001118                _end_noinit = .
+                0x20001118                PROVIDE (end, _end_noinit)
+                0x20001118                PROVIDE (_end, _end_noinit)
+                0x20001118                PROVIDE (__end, _end_noinit)
+                0x20001118                PROVIDE (__end__, _end_noinit)
+
+._check_stack   0x20001118      0x100 load address 0x080047a0
+                0x20001118                . = ALIGN (0x4)
+                0x20001218                . = (. + _Minimum_Stack_Size)
+ *fill*         0x20001118      0x100 
+                0x20001218                . = ALIGN (0x4)
+
+.bss_CCMRAM
+ *(.bss.CCMRAM .bss.CCMRAM.*)
+
+.b1text
+ *(.b1text)
+ *(.b1rodata)
+ *(.b1rodata.*)
+
+.eb0text
+ *(.eb0text)
+ *(.eb0rodata)
+ *(.eb0rodata.*)
+
+.eb1text
+ *(.eb1text)
+ *(.eb1rodata)
+ *(.eb1rodata.*)
+
+.eb2text
+ *(.eb2text)
+ *(.eb2rodata)
+ *(.eb2rodata.*)
+
+.eb3text
+ *(.eb3text)
+ *(.eb3rodata)
+ *(.eb3rodata.*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x70
+ *(.comment)
+ .comment       0x00000000       0x70 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .comment       0x00000000       0x71 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+ .comment       0x00000000       0x71 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+ .comment       0x00000000       0x71 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x31 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .ARM.attributes
+                0x00000031       0x31 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .ARM.attributes
+                0x00000062       0x31 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+ .ARM.attributes
+                0x00000093       0x31 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+ .ARM.attributes
+                0x000000c4       0x31 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+ .ARM.attributes
+                0x000000f5       0x2d c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000122       0x2d c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memset.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x268
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .debug_aranges
+                0x00000020      0x1a0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .debug_aranges
+                0x000001c0       0x40 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+ .debug_aranges
+                0x00000200       0x48 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+ .debug_aranges
+                0x00000248       0x20 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xdac1
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x4522 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .debug_info    0x00004522     0x3ce9 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .debug_info    0x0000820b     0x1a33 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+ .debug_info    0x00009c3e     0x1f83 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+ .debug_info    0x0000bbc1     0x1f00 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+
+.debug_abbrev   0x00000000     0x1798
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4bf C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .debug_abbrev  0x000004bf      0x699 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .debug_abbrev  0x00000b58      0x38a C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+ .debug_abbrev  0x00000ee2      0x4d8 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+ .debug_abbrev  0x000013ba      0x3de C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+
+.debug_line     0x00000000     0x29d0
+ *(.debug_line)
+ .debug_line    0x00000000      0xbc7 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .debug_line    0x00000bc7      0xf84 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .debug_line    0x00001b4b      0x44e C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+ .debug_line    0x00001f99      0x611 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+ .debug_line    0x000025aa      0x426 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+
+.debug_frame    0x00000000      0x624
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x2c C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .debug_frame   0x0000002c      0x408 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .debug_frame   0x00000434       0xb4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+ .debug_frame   0x000004e8       0xc4 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+ .debug_frame   0x000005ac       0x30 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+ .debug_frame   0x000005dc       0x28 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000604       0x20 c:/stm32toolchain/gnu-arm/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7-m\libg_s.a(lib_a-memset.o)
+
+.debug_str      0x00000000     0x303d
+ *(.debug_str)
+ .debug_str     0x00000000     0x1d79 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+                               0x203a (size before relaxing)
+ .debug_str     0x00001d79      0xca8 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+                               0x1e9c (size before relaxing)
+ .debug_str     0x00002a21      0x20a C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+                                0xd87 (size before relaxing)
+ .debug_str     0x00002c2b      0x20a C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+                               0x103c (size before relaxing)
+ .debug_str     0x00002e35      0x208 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+                                0xe7d (size before relaxing)
+
+.debug_loc      0x00000000     0x96fd
+ *(.debug_loc)
+ .debug_loc     0x00000000     0x2690 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .debug_loc     0x00002690     0x33e7 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .debug_loc     0x00005a77     0x1338 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+ .debug_loc     0x00006daf     0x10f5 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+ .debug_loc     0x00007ea4     0x1859 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(RFESparc_fw.elf elf32-littlearm)
+
+.debug_ranges   0x00000000     0x1aa8
+ .debug_ranges  0x00000000      0x950 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans0.ltrans.o
+ .debug_ranges  0x00000950      0x830 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans1.ltrans.o
+ .debug_ranges  0x00001180      0x348 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans2.ltrans.o
+ .debug_ranges  0x000014c8      0x300 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans3.ltrans.o
+ .debug_ranges  0x000017c8      0x2e0 C:\Users\t530\AppData\Local\Temp\ccwEGCMC.ltrans4.ltrans.o

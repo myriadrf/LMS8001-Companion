@@ -1,0 +1,24 @@
+; STDFU.def : Declares the module parameters for the DLL.
+
+LIBRARY      "STDFU"
+DESCRIPTION  'STDFU Windows Dynamic Link Library'
+
+EXPORTS
+ STDFU_GetDeviceDescriptor	
+ STDFU_GetDFUDescriptor		
+ STDFU_GetStringDescriptor	
+ STDFU_GetNbOfConfigurations
+ STDFU_GetConfigurationDescriptor
+ STDFU_GetNbOfInterfaces
+ STDFU_GetNbOfAlternates
+ STDFU_GetInterfaceDescriptor
+ STDFU_Open			
+ STDFU_Close		
+ STDFU_Detach		
+ STDFU_SelectCurrentConfiguration
+ STDFU_Dnload		
+ STDFU_Upload		
+ STDFU_Getstatus	
+ STDFU_Clrstatus	
+ STDFU_Getstate		
+ STDFU_Abort		

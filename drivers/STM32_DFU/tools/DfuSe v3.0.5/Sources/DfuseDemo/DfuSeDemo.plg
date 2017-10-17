@@ -1,0 +1,139 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DfuSeDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Debug/DfuSeDemo.res" /d "_DEBUG" /d "_VS6_USED" "C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\DfuSeDemo.rc"" 
+Creating temporary file "C:\DOCUME~1\MOHAME~1\LOCALS~1\Temp\RSP79A.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_VS6_USED" /FR"Debug/" /Fp"Debug/DfuSeDemo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\DfuSeDemo.cpp"
+"C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\DfuSeDemoDlg.cpp"
+"C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\Enumeration.cpp"
+"C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\HexEdit.cpp"
+"C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\MappingDlg.cpp"
+"C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog.cpp"
+"C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_f2.cpp"
+"C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp"
+"C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\TextProgressCtrl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MOHAME~1\LOCALS~1\Temp\RSP79A.tmp" 
+Creating temporary file "C:\DOCUME~1\MOHAME~1\LOCALS~1\Temp\RSP79B.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "../include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_VS6_USED" /FR"Debug/" /Fp"Debug/DfuSeDemo.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MOHAME~1\LOCALS~1\Temp\RSP79B.tmp" 
+Creating temporary file "C:\DOCUME~1\MOHAME~1\LOCALS~1\Temp\RSP79C.tmp" with contents
+[
+../STDFU/debug/STDFU.lib ../STDFUFiles/debug/STDFUFiles.lib ../STDFUprt/debug/STDFUprt.lib setupapi.lib lib/hid.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/DfuSeDemo.pdb" /debug /machine:I386 /out:"../Binary/Debug/DfuSeDemo.exe" /pdbtype:sept /libpath:"../lib" 
+".\Debug\DfuSeDemo.obj"
+".\Debug\DfuSeDemoDlg.obj"
+".\Debug\Enumeration.obj"
+".\Debug\HexEdit.obj"
+".\Debug\MappingDlg.obj"
+".\Debug\OptionBytesDialog.obj"
+".\Debug\OptionBytesDialog_f2.obj"
+".\Debug\OptionBytesDialog_l1.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TextProgressCtrl.obj"
+".\Debug\DfuSeDemo.res"
+"\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\STDFUFiles\Debug\STDFUFiles.lib"
+"\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\STDFUPRT\Debug\STDFUPRT.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\MOHAME~1\LOCALS~1\Temp\RSP79C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\DfuSeDemo.rc (246): warning RC2182 : duplicate dialog control ID 1061
+Compiling...
+StdAfx.cpp
+
+NOTE: WINVER has been defined as 0x0500 or greater which enables
+Windows NT 5.0 and Windows 98 features. When these headers were released,
+Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+
+For this release when WINVER is defined as 0x0500 or greater, you can only
+build beta or test applications.  To build a retail application,
+set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+to see if retail Windows NT 5.0 or Windows 98 headers are available.
+
+See the SDK release notes for more information.
+
+Compiling...
+DfuSeDemo.cpp
+c:\vss_pc\pc\dfu stmicroelectronics extension\software\dfuse\dfusedemo\dfusedemodlg.h(89) : error C2061: syntax error : identifier 'DWORD_PTR'
+DfuSeDemoDlg.cpp
+c:\vss_pc\pc\dfu stmicroelectronics extension\software\dfuse\dfusedemo\dfusedemodlg.h(89) : error C2061: syntax error : identifier 'DWORD_PTR'
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\DfuSeDemoDlg.cpp(685) : warning C4018: '<' : signed/unsigned mismatch
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\DfuSeDemoDlg.cpp(687) : warning C4018: '<' : signed/unsigned mismatch
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\DfuSeDemoDlg.cpp(996) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\DfuSeDemoDlg.cpp(997) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\DfuSeDemoDlg.cpp(1025) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\DfuSeDemoDlg.cpp(1090) : warning C4018: '<' : signed/unsigned mismatch
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\DfuSeDemoDlg.cpp(1112) : warning C4018: '!=' : signed/unsigned mismatch
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\DfuSeDemoDlg.cpp(1127) : warning C4018: '<' : signed/unsigned mismatch
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\DfuSeDemoDlg.cpp(1129) : warning C4018: '<' : signed/unsigned mismatch
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\DfuSeDemoDlg.cpp(2719) : error C2061: syntax error : identifier 'DWORD_PTR'
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\DfuSeDemoDlg.cpp(2725) : error C2065: 'dwData' : undeclared identifier
+Enumeration.cpp
+HexEdit.cpp
+MappingDlg.cpp
+OptionBytesDialog.cpp
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog.cpp(311) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog.cpp(326) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog.cpp(341) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog.cpp(355) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog.cpp(356) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog.cpp(357) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog.cpp(358) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog.cpp(359) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog.cpp(360) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog.cpp(361) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog.cpp(362) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+OptionBytesDialog_f2.cpp
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_f2.cpp(400) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_f2.cpp(415) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_f2.cpp(430) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_f2.cpp(446) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_f2.cpp(461) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_f2.cpp(475) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_f2.cpp(476) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_f2.cpp(477) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'short', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_f2.cpp(478) : warning C4244: 'initializing' : conversion from 'short' to 'unsigned char', possible loss of data
+OptionBytesDialog_l1.cpp
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(470) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(485) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(501) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(516) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(532) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(547) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(562) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(577) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(590) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(591) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(592) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'short', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(593) : warning C4244: 'initializing' : conversion from 'short' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(595) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'short', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(596) : warning C4244: 'initializing' : conversion from 'short' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(598) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'short', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(599) : warning C4244: 'initializing' : conversion from 'short' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(601) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'short', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(602) : warning C4244: 'initializing' : conversion from 'short' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(604) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'short', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(605) : warning C4244: 'initializing' : conversion from 'short' to 'unsigned char', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(607) : warning C4244: 'initializing' : conversion from 'unsigned long' to 'short', possible loss of data
+C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\DfuseDemo\OptionBytesDialog_l1.cpp(608) : warning C4244: 'initializing' : conversion from 'short' to 'unsigned char', possible loss of data
+TextProgressCtrl.cpp
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+DfuSeDemo.exe - 4 error(s), 52 warning(s)
+</pre>
+</body>
+</html>

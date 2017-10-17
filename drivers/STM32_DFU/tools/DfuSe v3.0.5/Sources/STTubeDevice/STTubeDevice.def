@@ -1,0 +1,31 @@
+; STTubeDevice.def : Declares the module parameters for the DLL.
+
+LIBRARY      "STTubeDevice30"
+DESCRIPTION  'STTubeDevice Windows Dynamic Link Library'
+
+EXPORTS
+	STDevice_Open
+	STDevice_OpenPipes
+	STDevice_Close
+	STDevice_ClosePipes
+	STDevice_GetStringDescriptor
+	STDevice_GetDeviceDescriptor
+	STDevice_GetNbOfConfigurations
+	STDevice_GetConfigurationDescriptor
+	STDevice_GetNbOfInterfaces
+	STDevice_GetNbOfAlternates
+	STDevice_GetInterfaceDescriptor
+	STDevice_GetNbOfEndPoints
+	STDevice_GetEndPointDescriptor
+	STDevice_GetNbOfDescriptors
+	STDevice_GetDescriptor
+	STDevice_SelectCurrentConfiguration
+	STDevice_SetDefaultTimeOut
+	STDevice_SetMaxNumInterruptInputBuffer
+	STDevice_GetMaxNumInterruptInputBuffer
+	STDevice_SetSuspendModeBehaviour
+	STDevice_EndPointControl
+	STDevice_Reset
+	STDevice_ControlPipeRequest
+	STDevice_Read
+	STDevice_Write

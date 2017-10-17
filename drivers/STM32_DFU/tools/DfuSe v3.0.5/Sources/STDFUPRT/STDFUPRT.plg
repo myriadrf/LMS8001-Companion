@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: STDFUPRT - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\MOHAME~1\LOCALS~1\Temp\RSP23.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\Include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_VS6_USED" /D "_WINDLL" /FR"Debug/" /Fp"Debug/STDFUPRT.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\STDFUPRT\DetachThread.CPP"
+"C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\STDFUPRT\downloadthread.cpp"
+"C:\VSS_PC\PC\DFU STMicroelectronics Extension\SOFTWARE\DFUSE\STDFUPRT\stthread.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MOHAME~1\LOCALS~1\Temp\RSP23.tmp" 
+Creating temporary file "C:\DOCUME~1\MOHAME~1\LOCALS~1\Temp\RSP24.tmp" with contents
+[
+../STDFU/debug/STDFU.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/STDFUPRT.pdb" /debug /machine:I386 /def:".\STDFUPRT.def" /out:"../Binary/Debug/STDFUPRT.dll" /implib:"Debug/STDFUPRT.lib" /pdbtype:sept /libpath:"..\lib" 
+".\Debug\DetachThread.obj"
+".\Debug\dfuhread.obj"
+".\Debug\downloadthread.obj"
+".\Debug\image.obj"
+".\Debug\StdAfx.obj"
+".\Debug\STDFUPRT.obj"
+".\Debug\stthread.obj"
+".\Debug\uploadthread.obj"
+".\Debug\STDFUPRT.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\MOHAME~1\LOCALS~1\Temp\RSP24.tmp"
+<h3>Output Window</h3>
+Compiling...
+DetachThread.CPP
+c:\vss_pc\pc\dfu stmicroelectronics extension\software\dfuse\stdfuprt\detachthread.cpp(19) : fatal error C1853: 'Debug/STDFUPRT.pch' is not a precompiled header file created with this compiler
+downloadthread.cpp
+c:\vss_pc\pc\dfu stmicroelectronics extension\software\dfuse\stdfuprt\downloadthread.cpp(19) : fatal error C1853: 'Debug/STDFUPRT.pch' is not a precompiled header file created with this compiler
+stthread.cpp
+c:\vss_pc\pc\dfu stmicroelectronics extension\software\dfuse\stdfuprt\stthread.cpp(19) : fatal error C1853: 'Debug/STDFUPRT.pch' is not a precompiled header file created with this compiler
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+STDFUPRT.dll - 3 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
