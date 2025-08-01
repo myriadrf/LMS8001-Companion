@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name 12402143E512A_libs)(type KiCad)(uri "$(KIPRJMOD)/12402143E512A_libs")(options "")(descr ""))
+  (lib (name LMS8001_KiCAD_Library)(type Legacy)(uri "$(KIPRJMOD)/LMS8001_KiCAD_Library.mod")(options "")(descr ""))
+  (lib (name SC_88_6_NUP2202W1T2G)(type KiCad)(uri /home/brankob/Desktop/PCB/LMS8001_Companion_3v1/KiCad_Design_files/SC_88_6_NUP2202W1T2G)(options "")(descr ""))
+)

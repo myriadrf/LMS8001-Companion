@@ -1,0 +1,31 @@
+Drill report for /home/brankob/Desktop/PCB/LMS8001_Companion_3v1/KiCad_Design_files/LMS8001_Companion.kicad_pcb
+Created on понедељак, 28. јул 2025. 12:51:03 CEST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.RO                      front
+    L2 :  B.RO                      inner1
+    L3 :  F.FR4                     inner2
+    L4 :  B.FR4                     back
+
+
+Drill file 'LMS8001_Companion.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,20mm  0,008"  (176 holes)
+    T2  0,30mm  0,012"  (16 holes)
+    T3  0,40mm  0,016"  (621 holes)
+    T4  0,75mm  0,030"  (4 holes)  (with 4 slots)
+    T5  1,02mm  0,040"  (3 holes)
+    T6  3,17mm  0,125"  (4 holes)
+
+    Total plated holes count 824
+
+
+Drill file 'LMS8001_Companion-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0,70mm  0,028"  (2 holes)
+    T2  1,00mm  0,039"  (20 holes)
+
+    Total unplated holes count 22
