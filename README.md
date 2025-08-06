@@ -44,11 +44,6 @@ The directory structure is as follows:
 
       drivers/                   - STM32 DFU & VCP Windows drivers
          
-      firmware/
-          docs/                  - Flashing documentation
-          firmare/               - Firmware binary build
-          src/                   - Firmware sources
-
       hardware/<version>/
           BOM/                   - bill of materials spreadsheet
           Gerbers/               - Gerber CAM files
@@ -56,6 +51,8 @@ The directory structure is as follows:
           Manufacturing/         - Additional manufacturing information
           PDF/                   - Schematic and layout PDFs
           Reports/               - DRC, ERC and drill reports
+
+Please note that firmware has been moved to a [dedicated repo](https://github.com/myriadrf/LMS8001-Companion_FW).
 
 ## Associated projects
 
@@ -81,12 +78,9 @@ An LMS8001 PLL simulator:
 
 ### Documentation
 
-Documentation is licensed under a Creative Commons Attribution 3.0 Unported licence.
+Documentation is licensed under a Creative Commons Attribution 4.0 International licence.
 
 ### Hardware
 
-The hardware design is licensed under a Creative Commons Attribution 3.0 Unported licence.
+The hardware designs is licensed under the Solderpad Hardware License v2.1
 
-### Firmware
-
-The firmware is licensed under the Apache 2.0 License unless otherwise stated (please see the file headers for details).
