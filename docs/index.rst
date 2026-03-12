@@ -1,4 +1,4 @@
-.. figure:: images/LMS8001_Companion-top.png
+.. figure:: images/LMS8001-Companion3v2_AngledView_900w.png
    :alt: LMS8001 Companion Board
    :align: center
 
