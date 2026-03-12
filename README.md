@@ -1,6 +1,6 @@
 # LMS8001-Companion
 
-![LimeSDR board](/images/LMS8001-Companion3v2_AngledView_900w.png)
+![LimeSDR board](/docs/images/LMS8001-Companion3v2_AngledView_900w.png)
 
 The [LMS8001-Companion](https://myriadrf.org/projects/lms8001-companion/) board provides a highly integrated, highly configurable, four-channel frequency shifter platform, utilising the LMS8001A integrated circuit. One of the typical applications is extending Lime Micro transceiver family RF frequency range up to 10 GHz.
 
