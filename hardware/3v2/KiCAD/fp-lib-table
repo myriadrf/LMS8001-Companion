@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name LMS8001_KiCAD_Library)(type KiCad)(uri "$(KIPRJMOD)/LMS8001_KiCAD_Library.pretty")(options "")(descr ""))
+  (lib (name LMS8001_SPBoardLib)(type Legacy)(uri "$(KIPRJMOD)/LMS8001_SPBoardLib.mod")(options "")(descr ""))
+)

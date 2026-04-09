@@ -1,0 +1,10 @@
+(module GND_VIA (layer F.Cu) (tedit 521176F5)
+  (fp_text reference GND_VIA (at -0.2 -1.8) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_text value VAL** (at -0.15 -3.5) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.3) (layers *.Cu)
+    (clearance 0.1) (zone_connect 2))
+)

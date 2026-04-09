@@ -1,0 +1,18 @@
+(module SMD0603 (layer F.Cu) (tedit 52119473)
+  (solder_mask_margin 0.09906)
+  (clearance 0.09906)
+  (fp_text reference C66 (at 0.4 -1.075) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_text value 2.2UF_0603 (at 0.4 1.275) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (fp_line (start 0 -0.34798) (end 0 0.34798) (layer F.SilkS) (width 0.19558))
+  (pad 1 smd rect (at -0.5461 0) (size 0.6985 0.79756) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0.5461 0) (size 0.6985 0.79756) (layers F.Cu F.Paste F.Mask))
+  (model walter/smd_resistors/r_0603.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
