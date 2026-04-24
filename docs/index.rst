@@ -14,6 +14,7 @@ Introduction
    Introduction <self>
    hardware/index
    software/index
+   reading/index
 
 The LMS8001 Companion Board extends the frequency range of any LimeSDR board — including the LimeSDR USB, LimeSDR Mini 2.0 and LimeSDR XTRX — enabling continuous coverage up to 10 GHz. The combination makes for a powerful and affordable solution for wideband applications such as spectrum monitoring, advanced wireless research, and development of next-generation communications.
 
